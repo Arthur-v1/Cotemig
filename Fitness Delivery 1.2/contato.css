@@ -1,0 +1,88 @@
+* {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+header {
+    height: 40.8203125%;
+    background-image: url(fundo\ cabeçalho.png);
+    background-size: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items: top;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+header #org1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+}
+
+#logoicon {
+    background-color: rgba(203, 255, 208, 20%);
+    margin-left: 50px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#logoimg {
+    width: 100px;
+    height: 100px;
+}
+
+#logo h1 {
+    color: white;
+    font-size: 32px;
+}
+
+header #Título {
+    color: white;
+    margin-top: 150px;
+}
+
+header #Título h1 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+header #Título h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-right: 50px;
+}
+
+#separador {
+    margin-top: 14px;
+    width: 7px;
+    height: 30px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#menu a {
+    font-size: 25px;
+    color: white;
+    border-style: none;
+    text-decoration: none;
+    margin-top: 14px;
+    transition: 0.3s;
+}
+
+#menu a:hover {
+    color: lightgreen;
+    font-size: 30px;
+}
